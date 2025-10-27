@@ -8,6 +8,7 @@ resource "aws_s3_bucket_versioning" "dev_versioning" {
   bucket = "bybybye"
 
   versioning_configuration {
+    
     status = "Enabled"
   }
 }
